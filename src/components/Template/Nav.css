@@ -1,0 +1,16 @@
+.menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: var(--shadow)
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(252, 125, 66);
+}

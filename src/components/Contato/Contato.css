@@ -4,5 +4,10 @@
     0 2px 49px 0 rgba(0, 0, 0, 0.06);
     padding: 10%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.column2 img{
+    border-radius: 10px;
+    box-shadow: var(--shadow)
 }

@@ -4,6 +4,6 @@ import './Footer.css'
 export default props =>
     <footer className="footer">
         <span>
-            Desenvolvido por Clarice Moraes <i className="fa fa-coffee"></i>
+            Desenvolvido por <a href="https://www.linkedin.com/in/ceciliabdm/">  Clarice Moraes </a> <i className="fa fa-coffee"></i>
         </span>
     </footer>

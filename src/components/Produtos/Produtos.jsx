@@ -13,6 +13,11 @@ import facaChurrasco from '../../Assets/facaChurrasco.jpg'
 import carroChurrasco from '../../Assets/carroChurrasco.jpg'
 import talherChurrasco from '../../Assets/talherChurrasco.jpg'
 
+import tramontinaLogo from '../../Assets/tramontina-logo.png'
+import Solar from '../../Assets/solar.jpg'
+import Monaco from '../../Assets/monaco.png'
+import Lyon from '../../Assets/lyon.png'
+
 class Produtos extends React.Component {
     
     
@@ -50,6 +55,21 @@ class Produtos extends React.Component {
                     <img id="facaChurrasco" alt="faca churrasco" width="280" src={facaChurrasco} />
                     <img id="carroChurrasco" alt="carro churrasco" src={carroChurrasco} width="500" />
                     <img id="talherChurrasco" alt="talher de churrasco" src={talherChurrasco} width="350" />
+                </div>
+                
+            </div>
+        </div>
+        <div className="contentProdutos">
+            <div className="panelas">
+                <div className="text">Panelas</div>
+                <p></p>
+                <div className="marca">
+                    <img id="logoTramontina" alt="Tramontina" src={tramontinaLogo} width="500" />
+                </div>
+                <div className="images">
+                    <img id="solar" alt="Solar" src={Solar} width="400" />
+                    <img id="lyon" alt="Lyon" src={Lyon} width="400" />
+                    <img id="monaco" alt="Monaco" src={Monaco} width="450" />
                 </div>
                 
             </div>

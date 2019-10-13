@@ -30,7 +30,7 @@
     border-radius: 10px;
 }
 
-#facaChurrasco, #carroChurrasco, #talherChurrasco{
+#facaChurrasco, #carroChurrasco, #talherChurrasco, #lyon{
     border-radius: 10px;
     margin: 5px;
 }
@@ -39,4 +39,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#logoTramontina{
+    margin: 10px;
 }

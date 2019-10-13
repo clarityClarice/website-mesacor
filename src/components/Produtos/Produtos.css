@@ -1,0 +1,42 @@
+.contentProdutos {
+    box-shadow: var(--shadow);
+    width: 100%;
+}
+
+.eletroportateis, .churrasco{
+    position: relative;
+    box-shadow: var(--shadow);
+    padding: 5px;
+  }
+
+
+.text {
+    color: rgb(160, 160, 160);
+    font-size: 26px;
+    position: absolute;
+}
+
+#breville {
+    border-radius: 10px;
+}
+
+.marca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sorveteira {
+    border-radius: 10px;
+}
+
+#facaChurrasco, #carroChurrasco, #talherChurrasco{
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
